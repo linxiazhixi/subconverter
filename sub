@@ -80,3 +80,13 @@ custom_proxy_group=🇨🇳 台湾节点`select`(台|新北|彰化|TW|Taiwan)
 custom_proxy_group=🇸🇬 狮城节点`select`(新加坡|坡|狮城|SG|Singapore)
 custom_proxy_group=🇰🇷 韩国节点`select`(KR|Korea|KOR|首尔|韩|韓)
 custom_proxy_group=other 其他节点`select`(UK|英|伦敦|DE|德|CA|Canada|加拿大|枫|BA|巴西|IN|印度|LU|卢森堡|NL|荷兰|IT|意大利|意|CH|瑞士|FR|法|巴黎|沙|沙特|阿拉伯|IL|以色列|UAE|迪拜|杜拜|Dubayy|智利|Chile|CL|墨西哥|mexico|México|Mexican|阿根廷|Argentina|AR|南非|Zuid-Afrika|瑞典|Sweden|Sverige|TR|土耳其|土|土澳|澳大利亚|澳|AUS|菲|PH|泰|TH|巴基斯坦|PK|俄|俄罗斯|RUS|RF)
+;设置分组标志位
+
+enable_rule_generator=true
+overwrite_original_rules=true
+skip_failed_links=true
+
+#过滤节点，正则匹配
+exclude_remarks=(IPV6|重置|流量|用户|本站|漏洞|永久虚通路|车|邀|免翻|邀请|eevpn|域名|机场|刷新|禁止|备用登录|计划|面板|忘记|到期|套餐|官网|更多|关注|25倍率|http|增加|持续|渠道|购买|QQ|Ins|二手)
+
+;luck
